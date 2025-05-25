@@ -11,7 +11,7 @@ print(f"Looking for .env at: {env_path}")  # Debug
 load_dotenv(env_path)
 
 # Get connection string
-DB_URL = "postgresql+psycopg2://todolist_django_render_pqsu_user:0WNrhPMDSLxLPkX65wUXUwH266NARXx5@dpg-cvnu4mruibrs73aeldg0-a.singapore-postgres.render.com/todolist_django_render_pqsu?sslmode=require"
+DB_URL = "postgresql+psycopg2://pit4_redeploy_user:5UFCzo1CdWCoeo9wXoX2WCLzTgZGXeoT@dpg-d0pcg96mcj7s73dvvs3g-a.singapore-postgres.render.com/pit4_redeploy?sslmode=require"
 
 # Debug output
 print(f"Database URL loaded: {DB_URL}")
